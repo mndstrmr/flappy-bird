@@ -1,0 +1,33 @@
+#bird {
+    height: 70px;
+    width: auto;
+    position: absolute;
+}
+
+html {
+    background-color: #3db1ff;
+    
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pipe {
+    height: 600px;
+    width: auto;
+    position: absolute;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#score {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}

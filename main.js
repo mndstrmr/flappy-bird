@@ -3,7 +3,7 @@ document.onkeypress = function (e) {
     if (e.keyCode == 32 && !bird.crashCheck(pipes)) { bird.flap(); }
 };
 
-document.onclick = function (e) {
+document.onmousedown = function (e) {
     bird.flap();
 }
 

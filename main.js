@@ -7,6 +7,10 @@ document.onmousedown = function (e) {
     bird.flap();
 }
 
+document.ontouchstart = function (e) {
+    bird.flap();
+}
+
 function createPipe() {
     for (var i = 0; i < pipes.length; i++) {
         if (!pipes[i].active) {

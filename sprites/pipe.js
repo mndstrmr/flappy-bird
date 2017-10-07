@@ -20,7 +20,7 @@ class Pipe extends Visual {
     }
     
     reset(y) {
-        this.x = 0;
+        this.x = -100;
         if (!this.upsideDown) {
             this.y = y - Pipe.HEIGHT;
         } else {

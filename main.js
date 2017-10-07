@@ -14,7 +14,7 @@ document.ontouchstart = function (e) {
 function createPipe() {
     for (var i = 0; i < pipes.length; i++) {
         if (!pipes[i].active) {
-            var center = Math.round(Math.random() * 120) + 150,
+            var center = Math.round(Math.random() * (HEIGHT / 6.05)) + (HEIGHT / 4.84),
                 radius = center / 2,
                 pos = Math.round(Math.random() * (HEIGHT / 2)) + (HEIGHT / 4);
             pipes[i].reset(pos + radius);

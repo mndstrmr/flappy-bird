@@ -1,6 +1,10 @@
 var HEIGHT = window.innerHeight,
     WIDTH = window.innerWidth;
 
+//1280 * 726
+
+console.log(HEIGHT);
+
 class Visual {
     constructor() {
         this.element = null;

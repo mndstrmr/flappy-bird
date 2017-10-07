@@ -10,7 +10,7 @@ class Bird extends Visual {
     update() {
         super.update()
         this.y += this.yIncrease;
-        this.yIncrease -= 0.2;
+        this.yIncrease -= (726 / HEIGHT) * 0.2;
     }
     
     crashCheck(pipes) {
@@ -40,7 +40,7 @@ class Bird extends Visual {
     }
     
     flap() {
-        this.yIncrease += 5;
+        this.yIncrease += (HEIGHT / 726) * 5;
     }
 }
 

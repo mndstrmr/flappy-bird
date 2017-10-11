@@ -1,5 +1,5 @@
 #bird {
-    height: 70px;
+    height: 10%;
     width: auto;
     position: absolute;
 }
@@ -15,7 +15,7 @@ html {
 }
 
 .pipe {
-    height: 600px;
+    height: 75%;
     width: auto;
     position: absolute;
 }

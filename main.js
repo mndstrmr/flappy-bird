@@ -97,5 +97,5 @@ function start() {
     running = false;
     pipes = createPipes();
     userScore = 0;
-    drawAll();
 }
+drawAll();

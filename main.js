@@ -1,3 +1,9 @@
+var lastCreated,
+        bird,
+        running,
+        pipes,
+        userScore;
+
 document.onkeypress = function (e) {
     e = e || window.event;
     if (e.keyCode == 32) { 
@@ -85,9 +91,11 @@ function restart() {
     userScore = 0;
 }
 
-var lastCreated = new Date().getTime(),
-    bird = new Bird(),
-    running = false,
-    pipes = createPipes(),
+function start() {
+    lastCreated = new Date().getTime();
+    bird = new Bird();
+    running = false;
+    pipes = createPipes();
     userScore = 0;
-drawAll();
+    drawAll();
+}
